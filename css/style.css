@@ -19,7 +19,7 @@ nav {
   width: 420px;
   background-color:grey;
 }
-div h1{
+h1{
   font-size:2em;
 }
 
@@ -29,19 +29,14 @@ h3{
 .location{
   background-color:lightgrey;
   line-height: 2em;
-  width:100%;
   padding:2%;
   border-bottom: 1px solid black;
 }
 
 .restaurant-list {
-  padding-top: 50px
-  padding:50%;
+  padding-top:10%;
   width:100%;
 }
-.arrow{
-  display:inline-block;
-  float:right;  
-}
+
 
 .location:hover{background-color:lightblue;}
