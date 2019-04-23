@@ -33,6 +33,10 @@ h3{
   border-bottom: 1px solid black;
 }
 
+.arrow{
+  float:right;
+}
+
 .restaurant-list {
   padding-top:10%;
   width:100%;
