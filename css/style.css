@@ -17,30 +17,35 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
-  background-color:grey;
+  background-color:black;
 }
 h1{
   font-size:2em;
+  font-weight: bold;
 }
 
 h3{
-  font-size:1em;
+  font-size:1.3em;
+  line-height: 2.2em;
 }
 .location{
   background-color:lightgrey;
-  line-height: 2em;
-  padding:2%;
+  padding:4%;
   border-bottom: 1px solid black;
 }
-
+.content{
+  width:80%;
+}
+/*arrow doesn't flow inside the box- need to fix it */
 .arrow{
+  position:relative;
+  bottom: 35px;
   float:right;
+  margin-right: 3%;
 }
 
 .restaurant-list {
   padding-top:10%;
-  width:100%;
 }
 
-
-.location:hover{background-color:lightblue;}
+.location:hover{background-color:darkgrey;}
